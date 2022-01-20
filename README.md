@@ -10,4 +10,4 @@
 -  播放搜索  adb shell am start-foreground-service -n cn.yhsh.adbinputserver/cn.yhsh.adbinputserver.service.AdbService --ei position 7 --ei type 5
 -  自动播放  adb shell am start-foreground-service -n cn.yhsh.adbinputserver/cn.yhsh.adbinputserver.service.AdbService --ei position 8 --ei type 5 
 -  上面的adb指令就是传参示例
--  先运行项目打开APP，然后使用上面的adb命令即可传参，主要穿了两个参数一个position一个type
+-  先运行项目打开APP，然后使用上面的adb命令即可传参，主要传了两个参数一个position一个type
